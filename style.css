@@ -1,8 +1,23 @@
+.cards-container {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 200px;
+    border-radius: 40px;
+    transition: 1s;
+}
+.foto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
 
-
-.card{
-    width: 400px
-    heigth: 550px
-    backgraund-color: #66CDAA
-
+.card:hover {
+    background-color: #ffa07adc;
+    border-radius: 0px;
+    transition: 1s;
 }
